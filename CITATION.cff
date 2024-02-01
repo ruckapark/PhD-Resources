@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Behavioural Fingerprinting for Advanced Ecotoxicological
+  Monitoring
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: George
+    family-names: Ruck
+    email: gruck@viewpoint.fr
+    affiliation: Viewpoint INRAE
+repository-code: 'https://github.com/ruckapark/PhD-Resources'
+abstract: >-
+  Documents and Data Relevant to the PhD: A Data-Driven
+  Exploration of Invertebrate Behavioural Fingerprinting for
+  Advanced Ecotoxicological Monitoring in Effluent
+  Environments.
+keywords:
+  - Time Series Data
+  - Functional Data Analysis
+  - Behavioural Ecotoxicology
