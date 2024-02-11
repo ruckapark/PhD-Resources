@@ -43,6 +43,13 @@ class DataProcessor:
     
     def df_substance_transpose(self,INF = True,col_ind = None):
         
+        """
+        Extract certain columns from DataFrame by index, and transpose Df.
+        Columns selected by index; i.e. [2,5] selects second and fifth columns
+        Original index (chemicals) becomes columns names
+        Columns ([2,5] for example) become index
+        """
+        
         if INF:
             df = self.INF.copy()
             conc_cols = self.INF_conc_cols
